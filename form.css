@@ -1,33 +1,28 @@
 
 body{
-  background-color: rgb(164, 221, 221);
-  background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
-  margin: 0;
-  padding: 0;
+    background-color: rgb(164, 221, 221);
+    background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+    margin: 0;
+    padding: 0;
 } 
-    
-
 .parent-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 .child-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: RGB(181, 101, 167);
-    height: 694px;
-    width: 500px;
-    border: 2px solid rgb(213, 226, 234);
-    border-radius: 45px;
-    margin: 50px;
-    background-image:url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
-    background-repeat: no-repeat;
-    background-size: 1055px;
-    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: RGB(181, 101, 167);
+            height: 694px;
+            width: 500px;
+            border: 2px solid rgb(213, 226, 234);
+            border-radius: 45px;
+            margin: 50px;
+            background-image:url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
+            background-repeat: no-repeat;
+            background-size: 1055px;           
 }
 .login{
     display: flex;
@@ -35,7 +30,7 @@ body{
     color: aliceblue;
 }
 .info{
-    margin: 24px;
+    margin: 24px 0px 0px 32px;
 }
 .clrtext
 {
@@ -45,18 +40,20 @@ body{
   border-radius: 25px;
   width: 310px;
   margin: 8px 30px 0px 7px;
- 
-  
 }
 .rmmber{
-    margin: 0px 0px 0px px;
     color: aliceblue;
+    margin: 0px 0px 0px -6px;
 }
 .or{
-    color: wheat;
-    margin:8px 30px 6px 30px;
+    display: flex;
+    justify-content:center ;    
+    color: rgb(243, 239, 233);
+    margin:8px 30px 6px 40px;
 }
 .resister{
+    display: flex;
+    justify-content: center;
     color: azure;
     margin: 8px 30px 6px 30px;
 }
@@ -70,6 +67,7 @@ body{
 .btn {
   display: flex;
   justify-content: center;
+  margin: 20px 0px 0px 0px;
 }
 .button{
      text-align: center;
@@ -82,14 +80,19 @@ body{
     color: azure;
 }
 .forgot{
-    margin:  9px 2px 9px 30px;
-    
+    display:flex;
+    margin:  8px 2px 9px 36px;
 }
 .frgt{
-color: rgb(234, 255, 0);
+   
+    color: rgb(234, 255, 0);
+    margin: -18px 2px 0px 5px;
 }
 .frgt:hover{
      color: rgb(16, 224, 252);
+}
+.check{
+    margin:0px 0px 0px 87px;
 }
 .user{
     margin: 5px;
@@ -99,5 +102,4 @@ color: rgb(234, 255, 0);
     color: rgba(11, 0, 0, 0.769);  
     font-size: 13px;
     padding: 8px 0px 8px 12px;
-
 }
