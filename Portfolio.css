@@ -3,16 +3,19 @@
     padding: 0;
 }
 body{
-    background-color: rgb(0,0,33);
-    color: #fff;
-    font-family: 'Fira Sans', sans-serif;
+    background-image: url(portfoliobackground.png);
+    background-size: cover;
+    color: #fcffe8;
     font-family: 'Ubuntu', sans-serif;
+}
+.head{
+    height: 85px;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(39, 39, 79);
+    padding: 9px 0px 0px 0px;
     height: 70px;
 }
 
@@ -24,11 +27,44 @@ nav ul{
 nav ul li{
     list-style: none;
     margin: 0px 23px;
+    padding:0px 10px 0px 0px;
+    border: 2px solid rgb(243, 234, 234);
+    border-radius: 22px 4px 22px 4px;
 }
 .left{
     font-size: 1.4rem;
+    margin-left: -200px;
 }
 nav ul li a{
-    color: #fff;
+    color:rgb(236, 236, 236);
     text-decoration: none;
+    padding: 17px 17px 17px 17px;
+}
+.main{
+    display:flex;
+    height: 590px;
+}
+.image{
+    height:450px;
+    width: 450px;
+    margin: 90px 0px 0px 94px;
+    border-radius: 50px;
+}
+.image2{
+    height:350px ;
+    width: 350px;
+    border-radius: 200px;
+}
+.content{
+    height:450px;
+    width: 888px;
+    margin: 40px 40px 0px 0px;
+}
+h1{
+    margin: 90px;
+    font-size: 60px;
+    text-align: center;
+}
+nav ul li a:hover{
+    text-shadow: #FC0344 1px 0px 20px;
 }
