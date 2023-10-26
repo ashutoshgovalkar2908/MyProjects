@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f0f2f5;
+}
+.innercontainer{
+
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 450px;
+    margin:40px 0px 0px 0px;
+   
+
+}
+.name{
+    height: 80px;
+    width: 350px;
+    margin: 7px 0px 0px 50px;
+    text-align: center;
+}
+.fbimg{
+    margin: 0px 0px -4px 0px;
+    width: 240px;
+    text-align: center;
+    font-size: 12px;
+}
+.innercontainer2{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    height: 292px;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+}
+.loginname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin:5px 0px 0px 0px;
+}
+.loginname2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: px;
+    color: #1c1e21;
+}
+.loginformcontainer{
+    height: 290px;
+    /* border: 2px solid black; */
+}
+.user{
+    width: 364px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin: 0px 0px 5px 25px;
+    border: none;
+}
+.emailorphonepassword{
+    height: 50px;
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #1d2129;;
+    padding:0px 0px 0px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    outline-style: none;
+    border: 1px solid #dddfe2;
+}
+.password{
+    width: 364px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin: 0px 0px 5px 25px;
+}
+.button{
+    width: 364px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin: 0px 0px 5px 25px;
+    border: none;
+}
+.forgot{
+    width: 364px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin: 8PX auto; 
+    text-align: center;
+}
+.button1{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 346px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.forgot1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.representation{
+    color: #90949c;
+}
