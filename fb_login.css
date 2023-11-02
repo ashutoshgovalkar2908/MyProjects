@@ -10,39 +10,60 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #f0f2f5;
 }
 .innercontainer{
-
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
-    width: 450px;
-    margin:40px 0px 0px 0px;
+    height: 650px;
+    width: 100%;
+    margin-top:20px;
    
 
+}
+.facebookname{
+    height: 380px;
+    width: 670px;
+    margin: 30px 0px 0px -116px;
+   
+}
+.shortinfo{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 600px;
+    margin-top: 20px;
+}
+.shortinfo h4{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-left: 105px;
+    color: #1c1e21;
 }
 .name{
     height: 80px;
     width: 350px;
-    margin: 7px 0px 0px 50px;
+    margin: 7px 0px 0px 60px;
     text-align: center;
 }
 .fbimg{
     margin: 0px 0px -4px 0px;
-    width: 240px;
+    width: 320px;
     text-align: center;
-    font-size: 12px;
+    font-weight: 40px;
 }
 .innercontainer2{
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
-    margin: auto;
+    
+    /* margin: 50px 0px 0px 18px; */
     padding: 0 0 14px 0;
     width: 396px;
-    height: 292px;
-    background-color: #fff;
-    border: 1px solid #dddfe2;
+    height: 496px;
+    margin-left: 20px;
+    
 }
 .loginname{
     display: flex;
@@ -59,19 +80,19 @@ body{
     color: #1c1e21;
 }
 .loginformcontainer{
-    height: 290px;
+    width: 396px;
+    height: 360px;
+    display: block;
     /* border: 2px solid black; */
-}
-.user{
-    width: 364px;
-    height: 60px;
-    /* border: 2px solid black; */
-    margin: 0px 0px 5px 25px;
-    border: none;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 40px;
 }
 .emailorphonepassword{
     height: 50px;
-    width: 330px;
+    width: 350px;
     border-radius: 6px;
     font-size: 17px;
     color: #1d2129;;
@@ -81,44 +102,86 @@ body{
     outline-style: none;
     border: 1px solid #dddfe2;
 }
-.password{
+.user{
     width: 364px;
     height: 60px;
     /* border: 2px solid black; */
-    margin: 0px 0px 5px 25px;
+    margin: 18px 15px 0px 15px;
+}
+.pass{
+    width: 364px;
+    height: 60px;
+    margin: 5px 15px 8px 15px;
 }
 .button{
     width: 364px;
     height: 60px;
     /* border: 2px solid black; */
-    margin: 0px 0px 5px 25px;
     border: none;
 }
 .forgot{
     width: 364px;
-    height: 60px;
-    /* border: 2px solid black; */
     margin: 8PX auto; 
     text-align: center;
 }
 .button1{
-    background-color: #1877f2;
-    border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    line-height: 48px;
-    padding: 0 16px;
-    width: 346px;
-    font-weight: bold;
-    color: #FFFFFF;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 366px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0px 15px 5px 15px;
+  cursor: pointer;
 }
 .forgot1{
     font-family: Arial, Helvetica, sans-serif;
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
    
 }
-.representation{
-    color: #90949c;
+.line{
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+.newaccount{
+    text-align: center;
+    display: block;
+    margin-top: 28px;
+   
+}
+.newaccount a{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  color: #fff;
+  height: 30px;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+.creatpage{
+    margin-top: 28px;
+    text-align: center;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+.creatpage a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1c1e21;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 }
