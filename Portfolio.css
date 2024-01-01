@@ -49,7 +49,7 @@ body {
 .logo_name {
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 19rem;
     height: 70px;
     margin-left: 20px;
 }
@@ -78,7 +78,7 @@ body {
 
 .nav_main-content {
     height: 70px;
-    width: 50%;
+    width: 50rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -86,7 +86,7 @@ body {
 
 .content_links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 80%;
     height: 60px;
@@ -119,7 +119,7 @@ a:hover {
 }
 
 #social-link_section {
-    width: 5%;
+    width: 6rem;
 }
 
 .social-link-box {
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .social_links {
-    width: 70px;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -302,8 +302,7 @@ a:hover {
     width: auto;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0px 0px;
     padding: 15px 15px;
     height: 15px;
     color: #666;
