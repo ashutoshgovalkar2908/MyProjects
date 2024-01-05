@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Poppins:wght@300&family=Source+Sans+3&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(230, 78, 78),rgb(90, 90, 197));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    width: 40%;
+}
+.inner-box h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.inner-box .login-form{
+    border: 2px solid white;
+    width: 100%;
+    height: 400px;
+}
+.inner-box .login-form form{
+    margin: 0 auto;
+}
+
