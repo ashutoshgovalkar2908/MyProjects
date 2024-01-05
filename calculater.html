@@ -5,79 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .button {
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .calc {
-            background-color: rgb(192, 199, 199);
-            height: 500px;
-            width: 280px;
-            border-radius: 10px;
-            padding: 8px;
-            margin: 80px;
-        }
-
-        .calc1 {
-            background-color: white;
-            margin: 7px;
-            height: 77px;
-            width: 257px;
-        }
-
-        .b1 {
-            background-color: rgb(135, 126, 126);
-            border-radius: 10px;
-            height: 44px;
-            width: 68px;
-            margin: 2px;
-            padding: 2px;
-            text-align: center;
-        }
-
-        .b2 {
-            background-color: rgb(135, 126, 126);
-            border-radius: 10px;
-            height: 52px;
-            width: 68px;
-            margin: 2px;
-            padding: 15px 0px 0px 0px;
-            text-align: center;
-            padding: 2px;
-            border-color: black;
-        }
-
-        .cl:hover {
-            background-color: #f5f5f3;
-            ;
-        }
-
-        .cl {
-            background-color: #ffa906;
-        }
-
-        .cl2 {
-            background-color: aliceblue;
-        }
-
-        .cl2:hover {
-            background-color: rgb(135, 126, 126);
-        }
-
-        sup {
-            vertical-align: super;
-            font-size: smaller;
-        }
-    </style>
+    <link rel="stylesheet" href="Calculater_Css.css">
 </head>
 
 <body>
@@ -85,7 +13,7 @@
         <div class="calc">
             <input type=" text" class="calc1">
             <div class="button">
-                <button class="b1">mc</button>
+                <button class="b1" type="button">mc</button>
                 <button class="b1">mr</button>
                 <button class="b1">m+</button>
                 <button class="b1">m-</button>
@@ -97,10 +25,10 @@
                 <button class="b2 cl">÷</button>
             </div>
             <div class="button">
-                <button class="b2 cl2">7</butbutton>
-                    <button class="b2 cl2">8</butbutton>
-                        <button class="b2 cl2">9</butbutton>
-                            <button class="b2 cl">*</butbutton>
+                <button class="b2 cl2">7</button>
+                <button class="b2 cl2">8</button>
+                <button class="b2 cl2">9</button>
+                <button class="b2 cl">*</button>
             </div>
             <div class="button">
                 <button class="b2 cl2">4</button>
@@ -126,12 +54,8 @@
                 <button class="b2">R2</button>
                 <button class="b2">R0</button>
             </div>
-
-
         </div>
-
     </div>
 
 </body>
-
 </html>
