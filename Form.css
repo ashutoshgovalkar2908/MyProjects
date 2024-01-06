@@ -15,18 +15,22 @@
     align-items: center;
 }
 .inner-box{
-    width: 40%;
+    width: 30%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
 .inner-box h1{
     text-align: center;
     font-size: 2.5rem;
 }
 .inner-box .login-form{
-    border: 2px solid white;
     width: 100%;
     height: 400px;
 }
 .inner-box .login-form form{
     margin: 0 auto;
 }
-
+.login-info div{
+    width: 100%;
+    height: 60px;
+}
