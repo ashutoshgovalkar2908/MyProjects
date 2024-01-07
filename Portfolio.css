@@ -1,33 +1,22 @@
-html {
-    font-size: 13px;
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Source Sans pro', sans-serif;
-    background-image: url(./../Img/portfolio_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* margin: 0;
-    padding: 0; */
+    scroll-behavior: smooth;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .header {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     height: 100px;
+    z-index: 2;
 }
 
 .nav {
@@ -35,7 +24,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -64,31 +53,29 @@ body {
 
 .name {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #333;
     font-family: inherit;
 }
 
 .nav_menu {
     height: 70px;
-    width: 50rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width: 40%;
 }
 
 .content_links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 60px;
+    margin: 6px 0px;
 }
 
 .header_links {
     /* width: 80%; */
     list-style: none;
-    padding-left: 30px;
+    padding: 0px 40px 0px 30px;
 }
 
 a:hover {
@@ -96,51 +83,48 @@ a:hover {
 }
 
 .links {
-    padding: 22px 30px 0px 10px;
+padding: 22px 30px 0px 10px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 0.92rem;
 }
 
 .home {
     width: 100%;
-    height: calc(100vh - 110px);
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    top: calc(100% - 100px);
+    background-image: url(./../Img/portfolio_bg.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 #social-link_section {
-    width: 6rem;
-}
-
-.social-link-box {
-    width: 100%;
-    height: 300px;
-}
-
-.social_links {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    width: 4.9rem;
+    max-height: 330px;
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    padding: 20px 0px;
 }
 
-.social_icons {
-    display: block;
+.social_links .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 60px;
-    width: 50px;
-    margin: 8px 8px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
 }
 
 .social-icons_links {
-    width: 100%;
     display: block;
-    padding: 4px 0px;
+    width: 100%;
+    padding: 4px 10px;
     border-radius: 6px;
 }
 
@@ -149,11 +133,15 @@ a:hover {
 }
 
 .social-icons_links_logo {
-    height: 50px;
+    width: 100%;
 }
 
 #info-section {
-    width: calc(100% - 5%);
+    width: 100%;
+    margin-bottom: 150px;
+    position: absolute;
+    margin-left: 50px;
+
 }
 
 .small_info {
@@ -162,7 +150,9 @@ a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    align-content: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    position: absolute;
 }
 
 .myname {
@@ -174,25 +164,28 @@ a:hover {
 
 .info {
     height: 100px;
-    width: 675px;
+    /* width: 675px; */
+    width: 100%;
     padding-left: 20px;
 }
 
 .heading_primary {
     text-align: center;
-    margin: 40px 0px 0px 74px;
+    /* margin: 40px 0px 0px 74px; */
     font-size: 4em;
     font-weight: 800;
     letter-spacing: 3px;
     color: #111;
     text-transform: uppercase;
     font-family: inherit;
+    position: relative;
 }
 
 .text {
     text-align: center;
     font-size: 1.8rem;
     font-family: inherit;
+    position: relative;
 }
 
 .about-container {
@@ -203,6 +196,7 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: #fafafa;
+    padding: 6rem 0;
 }
 
 .box1 {
@@ -270,6 +264,7 @@ a:hover {
     width: 45%;
     height: 350px;
     margin: 20px 56px;
+
 }
 
 .main-about p {
