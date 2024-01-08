@@ -73,7 +73,6 @@
 }
 
 .header_links {
-    /* width: 80%; */
     list-style: none;
     margin-right: 30px;
 }
@@ -137,22 +136,14 @@ padding: 22px 30px 0px 10px;
 }
 
 #info-section {
-    width: 100%;
-    margin-bottom: 150px;
-    position: absolute;
+    width: calc(100% - 4.9rem);
     margin-left: 50px;
 
 }
 
 .small_info {
-    height: 330px;
+    height: 100%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* align-content: center; */
-    /* justify-content: center; */
-    position: absolute;
 }
 
 .myname {
