@@ -1,119 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Poppins:wght@300&family=Source+Sans+3&family=Ubuntu:wght@300&display=swap');
 
-body{
-   
-    margin: 0;
+*{
     padding: 0;
-    background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-.parent-container{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #73C0D4,rgb(90, 90, 197));
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100vw;
-    height: 100vh; */
-    /* margin: auto; */
 }
-.child-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: RGB(181, 101, 167);
-    height: 694px;
-    width: 500px;
-    margin: 50px 0px 50px 96px;
-    /* width: 80vw;
-    height: 80vh; */
-    border: 2px solid rgb(213, 226, 234);
-    border-radius: 45px;
-    /* margin: auto; */
-    background-image:url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;   
-    box-shadow: 7px 8px 10px #00ffdb;
-                
+.inner-box{
+    width: 30%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#78ca,#898989);
+    padding: 0px 20px;
 }
-.login{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-    text-shadow: #FC0 1px 0 10px;
-    font-size:22px;
+.inner-box h1{
+    text-align: center;
+    font-size: 2.5rem;
 }
-.info{
-    margin: 24px 0px 0px 32px;
+.inner-box .login-form{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
 }
-.clrtext
-{
-  display: flex;
-  color: #fffefef3;
-  font-size: 20px;
-  border-radius: 25px;
-  width: 310px;
-  margin: 8px 30px 0px 7px;
-  outline: none;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.inner-box .login-form form{
+    margin: 0 auto;
 }
-.rmmber{
-    color: aliceblue;
-    margin: 0px 0px 0px -6px;
+.login-info div{
+    width: 100%;
+    /* height: 60px; */
+    margin-top: 10px;
 }
-.or{
-    display: flex;
-    justify-content:center ;    
-    color: rgb(243, 239, 233);
-    margin:8px 30px 6px 40px;
+.login-info div label{
+    display: block;
+    font-weight: 600;
+    /* padding: 10px 0px; */
 }
-.resister{
-    display: flex;
-    justify-content: center;
-    color: azure;
-    margin: 8px 30px 6px 30px;
-}
-.resister1{
-    margin: 0px 0px 0px 5px;
-    color:white;
-}
-.resister1:hover{
-   color: aqua;
-}
-.btn {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0px 0px 0px;
-}
-.button{
-     text-align: center;
-    border-radius: 30px;
-    width: 90px;
-    padding:  6px 25px 7px 25px;
-}
-.button:hover{
-    background-color: rgba(74, 76, 77, 0.571);
-    color: azure;
-}
-.forgot{
-    display:flex;
-    margin:  8px 2px 9px 36px;
-}
-.frgt{
-   
-    color: rgb(234, 255, 0);
-    margin: -18px 2px 0px 5px;
-}
-.frgt:hover{
-     color: rgb(16, 224, 252);
-}
-.check{
-    margin:0px 0px 0px 87px;
-}
-.user{
-    margin: 5px;
-   
-}
-.user1{
-    color: rgba(11, 0, 0, 0.769);  
-    font-size: 14px;
-    padding: 8px 0px 8px 12px;
+.login-info div input{
+    width: 100%; 
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
 }
