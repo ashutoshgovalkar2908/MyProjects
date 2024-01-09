@@ -269,9 +269,10 @@ a:hover {
     display: flex;
     width: 66%;
     height: 177px;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-around;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .skills div {
@@ -279,7 +280,6 @@ a:hover {
     height: 50px;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
-    margin: 10px 10px 0px 0px;
     padding: 15px 15px;
     color: #666;
     font-weight: 600;
