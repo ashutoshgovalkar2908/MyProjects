@@ -40,6 +40,7 @@
 }
 .login-info div label{
     display: block;
+    font-size: 0.97rem;
     font-weight: 600;
     /* padding: 10px 0px; */
 }
@@ -49,8 +50,22 @@
     margin-top: 10px;
     border-radius: 5px;
     border: none;
+    outline: none;
+}
+#login{
+    margin-top: 25px;
+}
+.login-info div input[type="submit"]{
+    background-image: linear-gradient(to left,#79ccdf,#b6aec9);
+    font-size: 0.98rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
+ .login-info div input[type="submit"]:hover{
+    background-image:  linear-gradient(to left,#00c1ec,#79ccdf);
+    color:#ffffff;
+}
 footer{
     margin-top: 30px;
 }
