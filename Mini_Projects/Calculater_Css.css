@@ -30,9 +30,11 @@
 
 .calc1 {
     background-color: white;
-    margin: 0.3vw;
+    /* margin: 0.3vw; */
     height: 77px;
-    width: 94%;
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: 6px;
 }
 
 .b1 {
@@ -77,4 +79,11 @@
 sup {
     vertical-align: super;
     font-size: smaller;
+}
+
+@media all and (max-width:320px){
+
+    .calc{
+        width: 18em;
+    }
 }
