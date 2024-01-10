@@ -15,7 +15,7 @@
     align-items: center;
 }
 .inner-box{
-    width: 30%;
+    width: 400px;
     border: 2px solid #ccc;
     border-radius: 5px;
     background-image: linear-gradient(to right,#78ca,#898989);
@@ -50,3 +50,22 @@
     border-radius: 5px;
     border: none;
 }
+@media screen and (max-width:768px) {
+    
+    .inner-box{
+        width: 22rem;
+    }
+    .inner-box h1{
+       font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:426px) and (min-width:320px) {
+    
+    .inner-box{
+        width: 18rem;
+    }
+    .inner-box h1{
+       font-size: 1.8rem;
+    }
+}
+
