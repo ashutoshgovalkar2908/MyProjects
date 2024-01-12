@@ -58,8 +58,12 @@
 .saving-info div a:hover{
     color: #000000;
 }
-#remmber{
-   display: inline;
+ #remember label {
+    color: #000000;
+    font-weight: 500;
+}
+#remember label:hover{
+    color: #ffffff;
 }
 .button{
     padding-inline: 150px;
