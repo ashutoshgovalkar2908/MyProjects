@@ -69,7 +69,10 @@ footer{
     margin-top: 30px;
 }
 footer .account{
-    padding-inline: 70px;
+    padding-inline: 75px;
+}
+footer .account p{
+    color: #ffffff;
 }
 
 
@@ -93,6 +96,9 @@ footer .account{
     }
     .inner-box h1{
        font-size: 1.8rem;
+    }
+    .login-info div label,#login input{
+        font-size: 0.88rem;
     }
     footer .account{
         font-size: 0.9rem;
