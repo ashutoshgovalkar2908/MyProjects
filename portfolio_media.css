@@ -1,21 +1,12 @@
-/* Default styles and global settings */
-
-@media only screen and (max-width: 600px) {
-    /* Small devices (phones) */
-    body {
-        font-size: 50%; /* Adjust as needed */
-    }
-
-    /* .nav {
-        flex-direction: column;
-        align-items: center;
-        margin: 10px;
-    } */
-    .container{
-        width: 100%;
-    }
-    .nav_main-content{
+@media screen and (min-width:320px) and (max-width:426px) {
+    .nav_menu{
         display: none;
+    }
+    .nav{
+        justify-content: center;
+    }
+    .logo_name{
+        justify-content: center;
     }
     #social-link_section{
         display: none;
@@ -23,21 +14,15 @@
     #info-section{
         width: 100%;
     }
-    .heading_primary{
-        font-size: 3.1rem;
+    .small_info .myname h1{
+         font-size: 1.7rem;
     }
-    .text{
-        font-size: 1rem;
+    .info{
+        width: 100%;
+        padding-inline: 10px;
+        margin-top: 10px;
     }
-
-
+    .small_info .info .text{
+        font-size: 0.98rem;
+    }
 }
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Medium devices (tablets) */
-
-}
-
-@media only screen and (min-width: 1025px) {
-    /* Large devices (desktops) */
-} 
