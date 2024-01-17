@@ -3,6 +3,7 @@
         display: none;
     }
     .nav{
+        height: 75px;
         justify-content: center;
     }
     .logo_name{
@@ -15,7 +16,8 @@
         width: 100%;
     }
     .small_info .myname h1{
-         font-size: 1.7rem;
+         font-size: 1.5rem;
+         letter-spacing: 1px;
     }
     .info{
         width: 100%;
@@ -31,6 +33,7 @@
         display: none;
     }
     .nav{
+        height: 75px;
         justify-content: center;
     }
     .logo_name{
@@ -43,7 +46,8 @@
         width: 100%;
     }
     .small_info .myname h1{
-         font-size: 1.7rem;
+         font-size: 1.5rem;
+         letter-spacing: 2px;
     }
     .info{
         width: 100%;
@@ -52,5 +56,43 @@
     }
     .small_info .info .text{
         font-size: 0.98rem;
+    }
+}
+@media  screen and (min-width:426px) and (max-width:768px) {
+    .nav{
+        height: 75px;
+    }
+    .logo_name,.nav_menu{
+        height: 70px;
+    }
+    .logo{
+        width: 55px;
+        height: 55px;
+    }
+    .name{
+        font-size: 0.92rem;
+    }
+    .nav_menu ul li a{
+        font-size: 0.85rem;
+    }
+    .header_links{
+        margin-inline: 5px;
+    }
+    #social-link_section{
+        width: 3.8rem; 
+    }
+    #info-section {
+        width: calc(100% - 3.8rem);
+    }   
+    #info-section .small_info .myname .heading_primary{
+       font-size: 2rem;
+    }
+    .info{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .info .text{
+        padding-inline: 12px;
+        font-size: 1.2rem;
     }
 }
