@@ -172,6 +172,7 @@ a:hover {
     text-align: center;
     font-size: 1.5rem;
     font-family: inherit;
+    width: 100%;
 }
 
 .about-container {
