@@ -83,6 +83,32 @@
     .small_info .info .text{
         font-size: 0.98rem;
     }
+    .about-container{
+        padding: 4.7rem 0;
+    }
+    .box1{
+        width: 100%;
+        margin: 0;
+        padding-inline: 10px;
+    }
+    .box1 h1{
+        font-size: 1.4rem;
+    }
+    .spn{
+        width: 30px;
+    }
+    .short-info{
+        width: 100%;
+        font-size: 0.8rem ;
+        font-weight: 700;
+        padding-inline: 24px;
+        height: auto;
+    }
+    .box2{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
   
 }
 @media  screen and (min-width:426px) and (max-width:768px) {
