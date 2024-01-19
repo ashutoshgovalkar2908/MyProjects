@@ -1,69 +1,57 @@
-@media screen and (max-width:320px) {
-    .nav_menu{
-        display: none;
-    }
+
+@media  screen and (min-width:640px) and (max-width:768px) {
     .nav{
         height: 75px;
-        justify-content: center;
     }
-    .logo_name{
-        justify-content: center;
+    .logo_name,.nav_menu{
+        height: 70px;
+    }
+    .logo{
+        width: 55px;
+        height: 55px;
+    }
+    .name{
+        font-size: 0.92rem;
+    }
+    .nav_menu ul li a{
+        font-size: 0.85rem;
+    }
+    .header_links{
+        margin-inline: 5px;
     }
     #social-link_section{
-        display: none;
+        width: 3.8rem; 
     }
-    #info-section{
-        width: 100%;
-    }
-    .small_info .myname h1{
-         font-size: 1.5rem;
-         letter-spacing: 1px;
+    #info-section {
+        width: calc(100% - 3.8rem);
+    }   
+    #info-section .small_info .myname .heading_primary{
+       font-size: 2rem;
     }
     .info{
         width: 100%;
-        padding-inline: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
-    .small_info .info .text{
-        font-size: 0.98rem;
-    }
-    .about-container{
-        padding: 4.7rem 0;
-    }
-    .box1{
-        width: 100%;
-        margin: 0;
-        padding-inline: 10px;
-    }
-    .box1 h1{
-        font-size: 1.4rem;
-    }
-    .spn{
-        width: 30px;
-    }
-    .short-info{
-        width: 100%;
-        font-size: 0.8rem ;
-        font-weight: 700;
-        padding-inline: 24px;
-        height: auto;
-    }
-    .box2{
-        width: 100%;
-        flex-direction: column;
-        height: auto;
+    .info .text{
+        padding-inline: 12px;
+        font-size: 1.2rem;
     }
 }
-@media screen and (min-width:321px) and (max-width:426px) {
+@media screen and (min-width:321px) and (max-width:640px) {
     .nav_menu{
         display: none;
     }
     .nav{
         height: 75px;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .logo_name{
-        justify-content: center;
+        justify-content: flex-start;
+        margin-left: 5px;
+        width: 12em;
+    }
+    .logo_name span{
+        font-size: 0.9rem;
     }
     #social-link_section{
         display: none;
@@ -111,41 +99,70 @@
     }
   
 }
-@media  screen and (min-width:426px) and (max-width:768px) {
+
+@media screen and (max-width:320px) {
+    .nav_menu{
+        display: none;
+    }
     .nav{
         height: 75px;
+        justify-content: flex-start;
     }
-    .logo_name,.nav_menu{
-        height: 70px;
+    .logo_name{
+        justify-content: flex-start;
+        margin-left: 5px;
+        width: 12em;
+    }
+    .logo_name span{
+        font-size: 0.9rem;
     }
     .logo{
-        width: 55px;
-        height: 55px;
-    }
-    .name{
-        font-size: 0.92rem;
-    }
-    .nav_menu ul li a{
-        font-size: 0.85rem;
-    }
-    .header_links{
-        margin-inline: 5px;
+        width: 3.3em;
+        height: 3.3em;
+        margin-right: 5px;
     }
     #social-link_section{
-        width: 3.8rem; 
+        display: none;
     }
-    #info-section {
-        width: calc(100% - 3.8rem);
-    }   
-    #info-section .small_info .myname .heading_primary{
-       font-size: 2rem;
+    #info-section{
+        width: 100%;
+    }
+    .small_info .myname h1{
+         font-size: 1.5rem;
+         letter-spacing: 1px;
     }
     .info{
         width: 100%;
-        margin-top: 20px;
+        padding-inline: 10px;
+        margin-top: 10px;
     }
-    .info .text{
-        padding-inline: 12px;
-        font-size: 1.2rem;
+    .small_info .info .text{
+        font-size: 0.98rem;
+    }
+    .about-container{
+        padding: 4.7rem 0;
+    }
+    .box1{
+        width: 100%;
+        margin: 0;
+        padding-inline: 10px;
+    }
+    .box1 h1{
+        font-size: 1.4rem;
+    }
+    .spn{
+        width: 30px;
+    }
+    .short-info{
+        width: 100%;
+        font-size: 0.8rem ;
+        font-weight: 700;
+        padding-inline: 24px;
+        height: auto;
+    }
+    .box2{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
     }
 }
