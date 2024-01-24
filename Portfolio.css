@@ -216,7 +216,7 @@ a:hover {
     font-size: 2rem;
 }
 
-.box1 div {
+.box1 .short-info-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
