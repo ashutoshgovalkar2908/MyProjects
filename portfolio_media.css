@@ -96,6 +96,7 @@
         width: 100%;
         flex-direction: column;
         height: auto;
+        
     }
   
 }
@@ -134,13 +135,13 @@
     .info{
         width: 100%;
         padding-inline: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .small_info .info .text{
         font-size: 0.98rem;
     }
     .about-container{
-        padding: 4.7rem 0;
+        padding: 4.7rem 0 0 0;
     }
     .box1{
         width: 100%;
@@ -155,14 +156,46 @@
     }
     .short-info{
         width: 100%;
-        font-size: 0.8rem ;
-        font-weight: 700;
-        padding-inline: 24px;
+        font-size: 0.75rem ;
+        font-weight: 600;
+        padding-inline: 10px;
+        margin-top: 10px;
         height: auto;
     }
     .box2{
         width: 100%;
         flex-direction: column;
         height: auto;
+        column-gap: 10px;
+    }
+    .main-about{
+        width: 100%;
+        margin: 0;
+        padding-inline: 15px;
+    }
+    .main-about h2{
+        font-size: 1.2rem;
+    }
+    #p1{
+        margin-top: 10px;
+    }
+    .main-about .para{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    .my-skills{
+        margin-top: 30px;
+    }
+    .skills{
+        width: 100%;
+        justify-content: start;
+        align-content: baseline;
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+    .skills div{
+        height: 44px;
     }
 }
