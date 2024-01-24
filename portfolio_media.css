@@ -66,13 +66,13 @@
     .info{
         width: 100%;
         padding-inline: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .small_info .info .text{
         font-size: 0.98rem;
     }
     .about-container{
-        padding: 4.7rem 0;
+        padding: 4.7rem 0 0 0;
     }
     .box1{
         width: 100%;
@@ -80,7 +80,7 @@
         padding-inline: 10px;
     }
     .box1 h1{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     .spn{
         width: 30px;
@@ -97,6 +97,37 @@
         flex-direction: column;
         height: auto;
         
+    }
+    .main-about{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding-inline: 15px;
+    }
+    .main-about h2{
+        font-size: 1.2rem;
+    }
+    #p1{
+        margin-top: 15px;
+    }
+    .main-about .para{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 0.79rem;
+        font-weight: 600;
+    }
+    .skills{
+        width: 100%;
+        justify-content: start;
+        align-content: baseline;
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+    .my-skills{
+        margin-top: 30px;
+    }
+    .skills div{
+        height: 43px;
     }
   
 }
