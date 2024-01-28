@@ -75,28 +75,32 @@
 
 .header_links {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 
 .links {
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
     font-size: 0.92rem;
-    transition: transform .8s ease-out;
+    transition-duration: 1s;
+    transition-property: border,border-radius,color;
+    transition-timing-function: ease-out;
 }
-.links:hover {
+
+.links:hover{
+    border: 1px solid rgb(103, 1, 236);
+    border-radius: 30px;
     color: rgb(103, 1, 236);
-   
+    
+    
 }
+
 .header_links:hover{
     transform: scale(1.1);
-    border: 2px solid #ffccdd;
-    border-radius: 30px;
-   
-}
+} 
 
 .home {
     width: 100%;
