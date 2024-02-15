@@ -125,17 +125,19 @@ h2 {
 }
 
 #social-link_section {
-    width: 4.9rem;
+    width: 4rem;
     max-height: 330px;
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
     padding: 20px 0px;
 }
+.social-icons{
+    padding: 6px;
+}
 
 .social-icons_links {
     display: block;
     width: 100%;
-    padding: 4px 10px;
     border-radius: 6px;
 }
 
@@ -145,6 +147,7 @@ h2 {
 
 .social-icons_links_logo {
     width: 100%;
+    margin-top: 4px;
 }
 
 #info-section {
