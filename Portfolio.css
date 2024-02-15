@@ -198,6 +198,7 @@ h2 {
     width: 100%;
     background: #fafafa;
     padding: 6rem 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .box1 {
@@ -251,7 +252,6 @@ h2 {
     height: 80px;
     margin-top: 10px;
     text-align: center;
-    font-family: 'Source Sans pro', sans-serif;
     color: #4d4a4a;
     letter-spacing: 1.6px;
     line-height: 28px;
