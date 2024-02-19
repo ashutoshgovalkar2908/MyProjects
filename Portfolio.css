@@ -362,8 +362,8 @@ h3{
     width: 100%;
     padding: 25px 10px;
     font-size: 0.85rem;
-    color: #333;
-    font-weight: bold;
+    color: rgba(51, 51, 51, 0.032);
+    font-weight: 500;
     margin-top: 10px;
     border-radius: 5px;
     outline: none;
