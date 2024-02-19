@@ -1,4 +1,13 @@
 
+@media (min-width: 769px) and (max-width: 992px) { 
+       .heading-primary{
+        font-size: 2.3rem ;
+       }
+       .text{
+        font-size:1.3rem ;
+       }
+  }
+  
 @media  screen and (min-width:640px) and (max-width:768px) {
     .nav{
         height: 75px;
@@ -20,7 +29,7 @@
         margin-inline: 5px;
     }
     #social-link-section{
-        width: 3.8rem; 
+        width: 3.5rem; 
     }
     #info-section {
         width: calc(100% - 3.8rem);
@@ -125,6 +134,7 @@
         align-content: baseline;
         gap: 10px;
         font-size: 0.8rem;
+        margin-top: 15px;
     }
     .my-skills{
         margin-top: 30px;
