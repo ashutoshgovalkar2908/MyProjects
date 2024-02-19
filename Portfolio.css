@@ -7,7 +7,11 @@
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
-
+:root{
+    --text-primary:#333;
+    --text-secondary:#4d4a4a;
+    --bg-purple: rgb(103, 1, 236);
+}
 .vw-vh {
     width: 100%;
     min-height: 100vh;
@@ -76,7 +80,7 @@ h3{
 .name {
     font-weight: bold;
     font-size: 1rem;
-    color: #333;
+    color: var(--text-primary);
     font-family: inherit;
 }
 
@@ -103,7 +107,7 @@ h3{
 .links {
     padding: 7px;
     text-decoration: none;
-    color: #333;
+    color: var(--text-primary);
     font-weight: bold;
     font-size: 0.92rem;
     transition-duration: 1s;
@@ -112,9 +116,9 @@ h3{
 }
 
 .links:hover {
-    border: 1px solid rgb(103, 1, 236);
+    border: 1px solid var(--bg-purple);
     border-radius: 30px;
-    color: rgb(103, 1, 236);
+    color: var(--bg-purple);
 
 }
 
@@ -249,7 +253,7 @@ h3{
     display: block;
     width: 40px;
     height: 6px;
-    background: rgb(103, 1, 236);
+    background: var(--bg-purple);
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -259,7 +263,7 @@ h3{
     height: 80px;
     margin-top: 10px;
     text-align: center;
-    color: #4d4a4a;
+    color: var(--text-secondary);
     letter-spacing: 1.6px;
     line-height: 28px;
     font-size: 18px;
@@ -354,7 +358,7 @@ h3{
 
 .contact-info div label {
     display: block;
-    color: #333;
+    color: var(--text-primary);
     font-size: 0.97rem;
     font-weight: bold;
 }
@@ -378,7 +382,7 @@ h3{
     margin-top: 10px;
     border-radius: 5px;
     font-size: 0.85rem;
-    color: #333;
+    color: var(--text-primary);
     font-weight: bold;
     background-color: #f3f3f6;
     border: #e4e1e1;
@@ -391,7 +395,7 @@ h3{
 }
 
 .contact-info div input[type="submit"] {
-    background-color: rgb(103, 1, 236);
+    background-color: var(--bg-purple);
     color: #fff;
     width: 30%;
     padding: 18px 10px;
