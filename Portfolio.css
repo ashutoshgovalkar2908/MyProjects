@@ -157,7 +157,7 @@ h3{
 }
 
 #info-section {
-    width: calc(100% - 4.9rem);
+    width: calc(100% - 4rem);
 
 }
 
@@ -186,7 +186,7 @@ h3{
 }
 
 .info {
-    width: 50rem;
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -194,7 +194,8 @@ h3{
     text-align: center;
     font-size: 1.5rem;
     font-family: inherit;
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .about-container {
