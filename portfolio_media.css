@@ -48,6 +48,23 @@
     h3{
         font-size: 1.7rem;
     }
+    .box2{
+        flex-direction: column;
+    }
+    .main-about{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .main-about p{
+        font-size: 0.96rem;
+    }
+    .short-info{
+        font-size: 0.99rem; 
+        padding-inline: 20px;
+    }
+    .inner-box{
+        width: 90%;
+    }
 }
 @media screen and (min-width:321px) and (max-width:640px) {
     .nav-menu{
@@ -125,8 +142,8 @@
     .main-about .para{
         width: 100%;
         margin-top: 10px;
-        font-size: 0.79rem;
-        font-weight: 600;
+        font-size: 0.9rem;
+        font-weight: 400;
     }
     .skills{
         width: 100%;
@@ -142,7 +159,18 @@
     .skills div{
         height: 43px;
     }
-  
+    .inner-box{
+        width: 90%;
+    }
+    .contact-info div label{
+        font-size: 0.9rem;
+    }
+    .contact-info div input{
+        font-size: 0.8rem;
+    }
+    .contact-info div input[type="submit"]{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -227,8 +255,8 @@
     .main-about .para{
         width: 100%;
         margin-top: 10px;
-        font-size: 0.75rem;
-        font-weight: 600;
+        font-size: 0.8rem;
+        font-weight: 400;
     }
     .my-skills{
         margin-top: 30px;
@@ -242,5 +270,17 @@
     }
     .skills div{
         height: 44px;
+    }
+    .inner-box{
+        width: 90%;
+    }
+    .contact-info div label{
+        font-size: 0.9rem;
+    }
+    .contact-info div input ,.contact-info div textarea{
+        font-size: 0.8rem;
+    }
+    .contact-info div input[type="submit"]{
+        width: 100%;
     }
 }
