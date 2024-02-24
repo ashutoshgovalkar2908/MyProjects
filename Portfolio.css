@@ -7,11 +7,13 @@
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
-:root{
-    --text-primary:#333;
-    --text-secondary:#4d4a4a;
+
+:root {
+    --text-primary: #333;
+    --text-secondary: #4d4a4a;
     --bg-purple: rgb(103, 1, 236);
 }
+
 .vw-vh {
     width: 100%;
     min-height: 100vh;
@@ -27,7 +29,8 @@ h2 {
     font-weight: bold;
     letter-spacing: 1.4px;
 }
-h3{
+
+h3 {
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
@@ -102,11 +105,13 @@ h3{
 .nav-menu ul li {
     list-style: none;
 }
-.nav .hamberger-icon img{
+
+.nav .hamberger-icon img {
     width: 100%;
     height: 40px;
 }
-.nav .hamberger-icon{
+
+.nav .hamberger-icon {
     display: none;
 }
 
@@ -148,7 +153,8 @@ h3{
     box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
     padding: 20px 0px;
 }
-.social-icons{
+
+.social-icons {
     padding: 6px;
 }
 

@@ -1,155 +1,193 @@
+@media (min-width: 769px) and (max-width: 992px) {
+    .heading-primary {
+        font-size: 2.3rem;
+    }
 
-@media (min-width: 769px) and (max-width: 992px) { 
-       .heading-primary{
-        font-size: 2.3rem ;
-       }
-       .text{
-        font-size:1.3rem ;
-       }
-  }
-  
-@media  screen and (min-width:640px) and (max-width:768px) {
-    .nav{
+    .text {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:768px) {
+    .nav {
         height: 75px;
     }
-    .logo-name,.nav-menu{
+
+    .logo-name,
+    .nav-menu {
         height: 70px;
     }
-    .logo{
+
+    .logo {
         width: 55px;
         height: 55px;
     }
-    .name{
+
+    .name {
         font-size: 0.92rem;
     }
-    .nav-menu ul li a{
+
+    .nav-menu ul li a {
         font-size: 0.85rem;
     }
-    .header-links{
+
+    .header-links {
         margin-inline: 5px;
     }
-    #social-link-section{
-        width: 3.4rem; 
+
+    #social-link-section {
+        width: 3.4rem;
     }
+
     #info-section {
         width: calc(100% - 3.8rem);
-    }   
-    #info-section .small-info .myname .heading-primary{
-       font-size: 2rem;
     }
-    .info{
+
+    #info-section .small-info .myname .heading-primary {
+        font-size: 2rem;
+    }
+
+    .info {
         width: 100%;
         margin-top: 20px;
     }
-    .info .text{
+
+    .info .text {
         padding-inline: 12px;
         font-size: 1.2rem;
     }
-    h3{
+
+    h3 {
         font-size: 1.7rem;
     }
-    .box2{
+
+    .box2 {
         flex-direction: column;
     }
-    .main-about{
+
+    .main-about {
         width: 100%;
         margin: 20px auto;
     }
-    .main-about p{
+
+    .main-about p {
         font-size: 0.96rem;
     }
-    .short-info{
-        font-size: 0.99rem; 
+
+    .short-info {
+        font-size: 0.99rem;
         padding-inline: 20px;
     }
-    .inner-box{
+
+    .inner-box {
         width: 90%;
     }
 }
+
 @media screen and (min-width:321px) and (max-width:640px) {
-    .nav-menu{
+    .nav-menu {
         display: none;
     }
-    .nav{
+
+    .nav {
         height: 75px;
         justify-content: space-between;
         padding-inline: 10px;
     }
-    .logo-name{
+
+    .logo-name {
         justify-content: flex-start;
-       padding-inline: 0;
+        padding-inline: 0;
         width: 12em;
     }
-    .logo-name span{
+
+    .logo-name span {
         font-size: 0.9rem;
     }
-    .nav .hamberger-icon{
+
+    .nav .hamberger-icon {
         display: block;
     }
-    #social-link-section{
+
+    #social-link-section {
         display: none;
     }
-    #info-section{
+
+    #info-section {
         width: 100%;
     }
-    .small-info .myname h1{
-         font-size: 2rem;
-         letter-spacing: 2px;
+
+    .small-info .myname h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
     }
-    .info{
+
+    .info {
         width: 100%;
         padding-inline: 10px;
         margin-top: 20px;
     }
-    .small-info .info .text{
+
+    .small-info .info .text {
         font-size: 0.98rem;
     }
-    .about-container{
+
+    .about-container {
         padding: 4.7rem 0 0 0;
     }
-    .box1{
+
+    .box1 {
         width: 100%;
         margin: 0;
         padding-inline: 10px;
     }
-    .box1 h2{
+
+    .box1 h2 {
         font-size: 1.7rem;
     }
-    .spn{
+
+    .spn {
         width: 30px;
     }
-    .short-info{
+
+    .short-info {
         width: 100%;
-        font-size: 0.8rem ;
+        font-size: 0.8rem;
         font-weight: 700;
         padding-inline: 24px;
         height: auto;
     }
-    .box2{
+
+    .box2 {
         width: 100%;
         flex-direction: column;
         height: auto;
-        
+
     }
-    .main-about{
+
+    .main-about {
         width: 100%;
         height: auto;
         margin: 0;
         padding-inline: 15px;
     }
-    .main-about h3{
+
+    .main-about h3 {
         font-size: 1.2rem;
     }
-    #p1{
+
+    #p1 {
         margin-top: 15px;
     }
-    .main-about .para{
+
+    .main-about .para {
         width: 100%;
         margin-top: 10px;
         font-size: 0.9rem;
         font-weight: 400;
     }
-    .skills{
+
+    .skills {
         width: 100%;
         justify-content: start;
         align-content: baseline;
@@ -157,141 +195,176 @@
         font-size: 0.8rem;
         margin-top: 15px;
     }
-    .my-skills{
+
+    .my-skills {
         margin-top: 30px;
     }
-    .skills div{
+
+    .skills div {
         height: 43px;
     }
-    .inner-box{
+
+    .inner-box {
         width: 90%;
     }
-    .contact-info div label{
+
+    .contact-info div label {
         font-size: 0.9rem;
     }
-    .contact-info div input{
+
+    .contact-info div input {
         font-size: 0.8rem;
     }
-    .contact-info div input[type="submit"]{
+
+    .contact-info div input[type="submit"] {
         width: 100%;
     }
 }
 
 @media screen and (max-width:320px) {
-    .nav-menu{
+    .nav-menu {
         display: none;
     }
-    .nav{
+
+    .nav {
         height: 75px;
         justify-content: space-between;
         padding-inline: 10px;
     }
-    .logo-name{
+
+    .logo-name {
         justify-content: flex-start;
         padding-inline: 0;
         width: 12em;
     }
-    .logo-name span{
+
+    .logo-name span {
         font-size: 0.9rem;
     }
-    .logo{
+
+    .logo {
         width: 3.3em;
         height: 3.3em;
         margin-right: 5px;
     }
-    .nav .hamberger-icon{
+
+    .nav .hamberger-icon {
         display: block;
     }
-    .nav .hamberger-icon img{
+
+    .nav .hamberger-icon img {
         padding: 4px;
     }
-    #social-link-section{
+
+    #social-link-section {
         display: none;
     }
-    #info-section{
+
+    #info-section {
         width: 100%;
     }
-    .small-info .myname h1{
-         font-size: 1.5rem;
-         letter-spacing: 1px;
+
+    .small-info .myname h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
     }
-    .info{
+
+    .info {
         width: 100%;
         padding-inline: 10px;
         margin-top: 20px;
     }
-    .small-info .info .text{
+
+    .small-info .info .text {
         font-size: 0.98rem;
         width: 100%;
     }
-    .about-container{
+
+    .about-container {
         padding: 4.7rem 0 0 0;
     }
-    .box1{
+
+    .box1 {
         width: 100%;
         margin: 0;
         padding-inline: 10px;
     }
-    .box1 h2{
+
+    .box1 h2 {
         font-size: 1.4rem;
     }
-    .spn{
+
+    .spn {
         width: 30px;
     }
-    .short-info{
+
+    .short-info {
         width: 100%;
-        font-size: 0.75rem ;
+        font-size: 0.75rem;
         font-weight: 600;
         padding-inline: 10px;
         margin-top: 10px;
         height: auto;
     }
-    .box2{
+
+    .box2 {
         width: 100%;
         flex-direction: column;
         height: auto;
         column-gap: 10px;
     }
-    .main-about{
+
+    .main-about {
         width: 100%;
         margin: 0;
         padding-inline: 15px;
     }
-    .main-about h3{
+
+    .main-about h3 {
         font-size: 1.2rem;
     }
-    #p1{
+
+    #p1 {
         margin-top: 10px;
     }
-    .main-about .para{
+
+    .main-about .para {
         width: 100%;
         margin-top: 10px;
         font-size: 0.8rem;
         font-weight: 400;
     }
-    .my-skills{
+
+    .my-skills {
         margin-top: 30px;
     }
-    .skills{
+
+    .skills {
         width: 100%;
         justify-content: start;
         align-content: baseline;
         gap: 10px;
         font-size: 0.8rem;
     }
-    .skills div{
+
+    .skills div {
         height: 44px;
     }
-    .inner-box{
+
+    .inner-box {
         width: 90%;
     }
-    .contact-info div label{
+
+    .contact-info div label {
         font-size: 0.9rem;
     }
-    .contact-info div input ,.contact-info div textarea{
+
+    .contact-info div input,
+    .contact-info div textarea {
         font-size: 0.8rem;
     }
-    .contact-info div input[type="submit"]{
+
+    .contact-info div input[type="submit"] {
         width: 100%;
     }
 }
