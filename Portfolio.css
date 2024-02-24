@@ -102,9 +102,11 @@ h3{
 .nav-menu ul li {
     list-style: none;
 }
-.nav-menu ul li img{
+.nav .hamberger-icon img{
     width: 100%;
     height: 40px;
+}
+.nav .hamberger-icon{
     display: none;
 }
 
