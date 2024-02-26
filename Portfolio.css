@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
@@ -91,7 +93,27 @@ h3 {
     height: 70px;
     width: 34rem;
 }
+.nav-menu2{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 16.2%;
+    padding: 5px 0px;
+    height: 200px;
+    width: 100%;
+    display: none;
+    background-color: #ffffff;
 
+}
+.nav-menu2 ul{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    gap: 8px;
+}
+.nav-menu2 ul li{
+    padding: 10px 20px;
+}
 .content-links {
     justify-content: flex-end;
     align-items: center;
@@ -100,10 +122,6 @@ h3 {
     margin: 4px 0px;
     gap: 30px;
     padding-inline: 20px;
-}
-
-.nav-menu ul li {
-    list-style: none;
 }
 
 .nav .hamberger-icon img {
