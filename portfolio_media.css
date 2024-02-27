@@ -6,6 +6,10 @@
     .text {
         font-size: 1.3rem;
     }
+
+    .nav-menu2 {
+        display: none;
+    }
 }
 
 @media screen and (min-width:640px) and (max-width:768px) {
@@ -29,6 +33,10 @@
 
     .nav-menu ul li a {
         font-size: 0.85rem;
+    }
+
+    .nav-menu2 {
+        display: none;
     }
 
     .header-links {
@@ -252,7 +260,7 @@
         display: block;
     }
 
-    .nav .hamberger-icon img {
+    .nav .hamberger-icon #open-icon {
         padding: 4px;
     }
 
