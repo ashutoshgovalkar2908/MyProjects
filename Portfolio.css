@@ -93,10 +93,10 @@ h3 {
     height: 70px;
     width: 34rem;
 }
-.nav-menu2{
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 16.2%;
+
+.nav-menu2 {
+    position: fixed;
+    top: 9%;
     padding: 5px 0px;
     height: 200px;
     width: 100%;
@@ -104,16 +104,19 @@ h3 {
     background-color: #ffffff;
 
 }
-.nav-menu2 ul{
+
+.nav-menu2 ul {
     display: flex;
     justify-content: end;
     align-items: end;
     flex-direction: column;
     gap: 8px;
 }
-.nav-menu2 ul li{
+
+.nav-menu2 ul li {
     padding: 10px 20px;
 }
+
 .content-links {
     justify-content: flex-end;
     align-items: center;
@@ -133,6 +136,11 @@ h3 {
     display: none;
 }
 
+.close {
+    /* position: absolute; */
+    display: none;
+    padding: 8px;
+}
 
 .links {
     padding: 7px;
