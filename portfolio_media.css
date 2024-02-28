@@ -96,7 +96,9 @@
     .nav-menu {
         display: none;
     }
-
+.nav-menu2{
+    display: block;
+}
     .nav {
         height: 75px;
         justify-content: space-between;
