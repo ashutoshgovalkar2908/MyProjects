@@ -365,7 +365,7 @@ h3 {
     font-family: "Roboto", sans-serif;
 }
 #contact {
-    padding-top: 6rem;
+    padding: 6rem;
     background-image: url(./../Img/portfolio_bg.jpg);
     background-size: cover;
 }
@@ -457,4 +457,9 @@ h3 {
     font-size: 0.98rem;
     font-weight: 600;
     cursor: pointer;
+}
+.footer-section{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
 }
