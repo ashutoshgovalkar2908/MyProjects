@@ -10,6 +10,18 @@
     .nav-menu2 {
         display: none;
     }
+    .inner-box{
+        width: 100%;
+    }
+    .upper-footer{
+        margin-bottom: 15px;
+    }
+    .upper-footer-name,.upper-footer-social{
+        padding: 0;
+    }
+    .upper-footer-name{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width:640px) and (max-width:768px) {
@@ -86,9 +98,20 @@
         font-size: 0.99rem;
         padding-inline: 20px;
     }
-
+    #contact{
+        padding-inline: 4rem;
+    }
     .inner-box {
-        width: 90%;
+        width: 100%;
+    }
+    .upper-footer{
+        margin-bottom: 15px;
+    }
+    .upper-footer-name,.upper-footer-social{
+        padding: 0;
+    }
+    .upper-footer-name{
+        width: 70%;
     }
 }
 
@@ -214,7 +237,9 @@
     .inner-box {
         width: 90%;
     }
-
+    #contact{
+        padding: 2rem 0;
+    }
     .contact-info div label {
         font-size: 0.9rem;
     }
@@ -225,6 +250,33 @@
 
     .contact-info div input[type="submit"] {
         width: 100%;
+    }
+    .footer-container{
+        padding: 0;
+    }
+    .upper-footer{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .upper-footer-name{
+        padding: 10px 0;
+        width: 100%;
+        order: 2;
+    }
+    .upper-footer-name h2,.upper-footer-social h2{
+        font-size: 1.15rem;
+        text-align: left;
+    }
+    .upper-footer-name p{
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+    .upper-footer-social{
+        padding-top: 20px;
+    }
+    .footer-social a img{
+        width: 28px;
+        margin: 0 10px 0 0 ;
     }
 }
 
@@ -362,6 +414,9 @@
         width: 90%;
     }
 
+    #contact{
+        padding: 1rem 0;
+    }
     .contact-info div label {
         font-size: 0.9rem;
     }
@@ -374,4 +429,32 @@
     .contact-info div input[type="submit"] {
         width: 100%;
     }
+    .footer-container{
+        padding: 0;
+    }
+    .upper-footer{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .upper-footer-name{
+        padding: 10px 0;
+        width: 100%;
+        order: 2;
+    }
+    .upper-footer-name h2,.upper-footer-social h2{
+        font-size: 1.15rem;
+        text-align: left;
+    }
+    .upper-footer-name p{
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+    .upper-footer-social{
+        padding-top: 20px;
+    }
+    .footer-social a img{
+        width: 28px;
+        margin: 0 10px 0 0 ;
+    }
+ 
 }
