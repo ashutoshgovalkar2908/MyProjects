@@ -252,7 +252,7 @@ h3 {
     align-items: center;
     width: 100%;
     background: #fafafa;
-    padding: 6rem 0;
+    padding-top: 6rem;
     font-family: "Roboto", sans-serif;
 }
 
@@ -265,7 +265,6 @@ h3 {
 .box2 {
     justify-content: center;
     width: 95%;
-    height: 520px;
     margin: 36px;
 }
 
@@ -290,6 +289,7 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+
 }
 
 .spn {
@@ -360,7 +360,7 @@ h3 {
     align-items: center;
     width: 100%;
     background: #fafafa;
-    padding: 6rem 0;
+    padding-top: 6rem;
     font-family: "Roboto", sans-serif;
 }
 #contact {
