@@ -15,6 +15,7 @@
     --text-secondary: #4d4a4a;
     --bg-purple: rgb(103, 1, 236);
     --bgColor-primary:#ffffff;
+    --section-padding:6rem;
 }
 
 .vw-vh {
@@ -38,6 +39,9 @@ h3 {
     text-align: center;
     font-weight: bold;
     letter-spacing: 1.4px;
+}
+p{
+    text-align: center;
 }
 
 .container {
@@ -252,11 +256,11 @@ h3 {
     align-items: center;
     width: 100%;
     background: #fafafa;
-    padding-top: 6rem;
+    padding-top: var(--section-padding);
     font-family: "Roboto", sans-serif;
 }
 
-.box1 {
+.heading {
     width: 700px;
     height: 170px;
     margin: 10px;
@@ -276,7 +280,7 @@ h3 {
     margin: 10px;
 }
 
-.box1 h1 {
+.heading h1 {
     text-align: center;
     letter-spacing: 4px;
     display: block;
@@ -284,7 +288,7 @@ h3 {
     font-size: 2rem;
 }
 
-.box1 .short-info-box {
+.heading .short-info-box {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -321,7 +325,7 @@ h3 {
 
 .main-about p {
     margin-top: 16px;
-    text-align: left;
+    text-align: center;
     color: #555;
     line-height: 28px;
     font-size: 18px;
@@ -360,11 +364,11 @@ h3 {
     align-items: center;
     width: 100%;
     background: #fafafa;
-    padding-top: 6rem;
+    padding-top: var(--section-padding);
     font-family: "Roboto", sans-serif;
 }
 #contact {
-    padding: 6rem;
+    padding: var(--section-padding);
     background-image: url(./../Img/portfolio_bg.jpg);
     background-size: cover;
 }
