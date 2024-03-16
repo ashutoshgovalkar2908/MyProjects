@@ -533,6 +533,11 @@ p{
     width: 30px;
     filter: invert();
     margin-left: 8px;
+    transition: .22s ease-in-out;
+}
+.footer-social a img:hover{
+    background-color: rgb(119 175 58);
+    border-radius: 2px;
 }
 .lower-footer{
     border-top:1px solid #444;
