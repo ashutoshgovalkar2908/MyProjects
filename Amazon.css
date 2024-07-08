@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav{
+    width: 100%;
+   
+}
+.nav-upper-div{
+    background-color: #131921;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 8px;
+}
+.logo-image a{
+    display: flex;
+    align-items: center;
+}
+.logo-image a img{
+    width: 97px;
+    filter: invert(1);
+    margin-top: 8px;
+}
+.logo-image a span{
+    color: #fff;
+    font-size: 13.5px;
+    font-weight: 600;
+    margin: 4px 0px 0px 2px;
+}
