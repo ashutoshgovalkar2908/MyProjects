@@ -8,6 +8,9 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    width: 100vw;
+}
 
 .nav{
     width: 100%;
@@ -44,7 +47,8 @@
     border: 1px solid #fff;
 }
 .logo,
-.location{
+.location,
+.search-baar{
     padding: 4px;
     height: 50px;
 }
@@ -73,4 +77,96 @@
     font-size: 15.777px;
     color: #fff;
     font-weight: 600;
+}
+.search-baar{
+    width: 51vw;
+    padding: 5px 10px;
+    margin-inline: 10px;
+    position: absolute;
+    left: 21rem;
+}
+.search-baar form{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    /* padding: 5px; */
+    border-radius: 4px;
+}
+.search-dropdown{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 50px;
+    background-color: #e6e6e6;
+    border-right: .5px solid #e1d2d2;
+    border-radius: 5px 0px 0px 5px;
+}
+.search-dropdown :first-child{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.search-dropdown span{
+    font-size: 13px;
+    color: #555;
+    margin: 0px 10px 0px 10px;
+}
+.search-dropdown i{
+    border: 4px solid transparent;
+    border-top: 4px solid #666;
+    border-bottom-width: 0;
+    margin-right: 10px;
+}
+.search-dropdown .select-dropdown{
+    position: absolute;
+    width: 50px;
+}
+.search-dropdown #dropdown{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.search-dropdown:hover{
+    background-color: #d4d4d4;
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+}
+.search-input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    outline: 0;
+}
+.search-btn{
+    display: flex;
+    height: 100%;
+    border-radius: 4px;
+}
+.search-btn input{
+    padding: 5px;
+    background-color: #febd69;
+    border: none;
+    width: 45px;
+    height: 100%;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+}
+.search-btn img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 19px;
+    top: 14px;
+    cursor: pointer;
+}
+.search-btn input:hover{
+    background-color: #f3a847;
 }
