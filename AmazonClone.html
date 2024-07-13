@@ -33,18 +33,20 @@
                 </div>
                 <!-- search-baar -->
                 <div class="search-baar">
-                    <form action="#">
+                    <form action="#" class="search-form">
                         <div class="search-dropdown">
                             <div>
                                 <span>All</span>
-                                <i></i>
+                                <i class="dropdown-i"></i>
                             </div>
                             <div class="select-dropdown">
-                                <select name="url" id="dropdown"></select>
+                                <select name="url" id="dropdown">
+                                    <option value=""></option>
+                                </select>
                             </div>
                         </div>
                         <div class="search-input">
-                            <input type="text" name="" id="" placeholder="Search Amazon.in">
+                            <input type="text" name="" id="search-in" placeholder="Search Amazon.in">
                         </div>
                         <div class="search-btn">
                             <input type="text" name="" id="" class="search-btn-input">
@@ -53,17 +55,31 @@
                     </form>
                 </div>
                 <!-- nav-right -->
-                <div class="nav-rght bdr-hvr">
-                    <div class="country">
+                <div class="nav-rght">
+                    <div class="country bdr-hvr">
                         <a href="#">
                             <span class="flag">
-                                <img src="Img/india-flag-icon.svg" alt="">
+                                <img src="Img/india-flag-icon.svg" alt="country-flag">
                             </span>
                             <span class="language">EN</span>
-                            <i></i>
+                            <i class="dropdown-i"></i>
                         </a>
                     </div>
-                    <div></div>
+                    <!-- accounts and list -->
+                    <div class="accounts-list bdr-hvr">
+                        <div class="accounts">
+                            <a href="#">
+                                <div class="sign-span">
+                                    <span>Hello, sign in</span>
+                                    <span>
+                                        <span>Account & Lists</span>
+                                        <i></i>
+                                    </span>
+                                </div>
+                                <div></div>
+                            </a>
+                        </div>
+                    </div>
                     <div></div>
                     <div></div>
                 </div>
@@ -71,5 +87,6 @@
             <div></div>
         </nav>
     </header>
+    <script src="amazon.js"></script>
 </body>
 </html>
