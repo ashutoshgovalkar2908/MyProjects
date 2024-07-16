@@ -12,6 +12,9 @@
 body {
     width: 100vw;
 }
+.flex{
+    display: flex;
+}
 
 .nav {
     width: 100%;
@@ -29,6 +32,7 @@ body {
     padding: 5px;
     display: flex;
     align-items: center;
+    height: fit-content;
 }
 
 .logo {
@@ -306,6 +310,78 @@ body {
     position: relative;
     bottom: 8px;
     left: -5px;
+}
+
+.nav-lower-div{
+    background-color: #232f3e;
+    height: 40px;
+}
+.nav-lower-containt{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 100%;
+}
+.all-lwr-menu{
+    padding: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.all-lwr-menu a{
+    height: 100%;
+}
+.toggle-icon-all{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 100%;
+}
+.toggle-icon-all img{
+    width: 17px;
+    filter: invert();
+}
+.toggle-icon-all span{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-shop-nav-rght{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.nav-shop-container,
+.nav-shop-container div,
+.nav-shop-container div ul li,
+.nav-shop-container div ul li a{
+    height: 100%;
+}
+.nav-shop-container div ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-shop-container div ul li{
+    padding-inline: 8px;
+}
+.nav-shop-container div ul li a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-shop-container div ul li a i{
+    margin: 6px 0px 0px 6px;
+    border-top: 4px solid #a7acb2;
+}
+.nav-rght,
+.nav-rght div{
+    height: 100%;
 }
 
 /* @media (max-width: 768px) {
