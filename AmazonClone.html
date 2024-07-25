@@ -8,100 +8,102 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
+        <nav class="nav w-100">
             <!-- nav-upper-div start here -->
-            <div class="nav-upper-div">
-                <!-- logo -->
-                <div class="logo bdr-hvr hght-pad">
-                    <div class="logo-image">
-                        <a href="#">
-                            <img src="Img/Amazon_logo.svg" alt="Amazon-logo">
-                            <span>.in</span>
+            <div class="nav-upper-div w-100">
+                <div class="upper-nav flex">
+                    <!-- logo -->
+                    <div class="logo bdr-hvr hght-pad">
+                        <div class="logo-image h-100">
+                            <a href="#" class="flex">
+                                <img src="Img/Amazon_logo.svg" alt="Amazon-logo">
+                                <span>.in</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- location -->
+                    <div class="location bdr-hvr hght-pad">
+                        <a href="#" class="h-100 flex">
+                            <div class="location-icon">
+                                <img src="Img/location-pin-svgrepo-com.svg" alt="location-icon">
+                            </div>
+                            <div class="address">
+                                <span>Delivering to Mumbai 400093</span>
+                                <span>Update location</span>
+                            </div>
                         </a>
                     </div>
-                </div>
-                <!-- location -->
-                <div class="location bdr-hvr hght-pad">
-                    <a href="#">
-                        <div class="location-icon">
-                            <img src="Img/location-pin-svgrepo-com.svg" alt="location-icon">
-                        </div>
-                        <div class="address">
-                            <span>Delivering to Mumbai 400093</span>
-                            <span>Update location</span>
-                        </div>
-                    </a>
-                </div>
-                <!-- search-bar -->
-                <div class="search-bar hght-pad">
-                    <form action="#" class="search-form">
-                        <div class="search-dropdown">
-                            <div>
-                                <span>All</span>
+                    <!-- search-bar -->
+                    <div class="search-bar hght-pad">
+                        <form action="#" class="search-form h-100 flex">
+                            <div class="search-dropdown h-100 flex">
+                                <div class="h-100 flex">
+                                    <span>All</span>
+                                    <i class="dropdown-i"></i>
+                                </div>
+                                <div class="select-dropdown">
+                                    <select name="url" id="dropdown" class="wh-100">
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search-input w-100 wh-100">
+                                <input type="text" name="search" id="search-in" placeholder="Search Amazon.in" class="wh-100">
+                            </div>
+                            <div class="search-btn h-100">
+                                <button type="submit" class="search-btn-input h-100">
+                                    <img src="Img/search-icon.png" alt="search-icon">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- nav-right -->
+                    <div class="nav-right flex">
+                        <div class="country bdr-hvr">
+                            <a href="#" class="flex">
+                                <span class="flag">
+                                    <img src="Img/india-flag-icon.svg" alt="country-flag">
+                                </span>
+                                <span class="language">EN</span>
                                 <i class="dropdown-i"></i>
-                            </div>
-                            <div class="select-dropdown">
-                                <select name="url" id="dropdown">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="search-input">
-                            <input type="text" name="search" id="search-in" placeholder="Search Amazon.in">
-                        </div>
-                        <div class="search-btn">
-                            <button type="submit" class="search-btn-input">
-                                <img src="Img/search-icon.png" alt="search-icon">
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <!-- nav-right -->
-                <div class="nav-right">
-                    <div class="country bdr-hvr">
-                        <a href="#">
-                            <span class="flag">
-                                <img src="Img/india-flag-icon.svg" alt="country-flag">
-                            </span>
-                            <span class="language">EN</span>
-                            <i class="dropdown-i"></i>
-                        </a>
-                    </div>
-                    <!-- accounts and list -->
-                    <div class="bdr-hvr hght-pad">
-                        <div class="accounts">
-                            <a href="#">
-                                <div class="sign-span">
-                                    <span>Hello, sign in</span>
-                                    <span>
-                                        <span>Account & Lists</span>
-                                        <i class="dropdown-i"></i>
-                                    </span>
-                                </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="bdr-hvr hght-pad">
-                        <div class="returns-orders">
-                            <a href="#">
-                                <div class="rtrn-ordr-div">
-                                    <span>Returns</span>
-                                    <div>
-                                        <span>& Orders</span>
+                        <!-- accounts and list -->
+                        <div class="bdr-hvr hght-pad">
+                            <div class="accounts h-100 flex">
+                                <a href="#">
+                                    <div class="sign-span">
+                                        <span>Hello, sign in</span>
+                                        <span class="flex">
+                                            <span>Account & Lists</span>
+                                            <i class="dropdown-i"></i>
+                                        </span>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cart bdr-hvr hght-pad">
-                        <div class="cart-img">
-                            <a href="#">
-                                <div>
-                                    <p>0</p>
-                                    <img src="Img/Cart.png" alt="cart-icon">
-                                    <span>Cart</span>
-                                </div>
-                            </a>
+                        <div class="bdr-hvr hght-pad">
+                            <div class="returns-orders h-100 flex">
+                                <a href="#" class="flex">
+                                    <div class="rtrn-ordr-div">
+                                        <span>Returns</span>
+                                        <div>
+                                            <span>& Orders</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cart bdr-hvr hght-pad">
+                            <div class="cart-img">
+                                <a href="#">
+                                    <div class="flex">
+                                        <p>0</p>
+                                        <img src="Img/Cart.png" alt="cart-icon">
+                                        <span>Cart</span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -110,45 +112,525 @@
 
             <!-- nav-lower-div start here -->
             <div class="nav-lower-div">
-                <div class="nav-lower-containt">
-                    <div class="all-lwr-menu bdr-hvr">
-                        <a href="#">
-                            <div class="toggle-icon-all">
+                <div class="nav-lower-containt h-100 flex">
+                    <div class="all-lwr-menu bdr-hvr h-100 flex">
+                        <a href="#" class="h-100">
+                            <div class="toggle-icon-all h-100 flex">
                                 <img src="Img/icons8-menu-bar.svg" alt="">
                                 <span>All</span>
                             </div>
                         </a>
                     </div>
-                    <div class="nav-shop-nav-rght">
-                        <div class="nav-shop-container">
-                            <div>
-                                <ul>
-                                    <li class="bdr-hvr"><a href="#">Fresh<i class="dropdown-i"></i></a></li>
-                                    <li class="bdr-hvr"><a href="#">Amazon miniTV</a></li>
-                                    <li class="bdr-hvr"><a href="#">Sell</a></li>
-                                    <li class="bdr-hvr"><a href="#">Best Sellers</a></li>
-                                    <li class="bdr-hvr"><a href="#">Today's Deals</a></li>
-                                    <li class="bdr-hvr"><a href="#">Mobiles</a></li>
-                                    <li class="bdr-hvr"><a href="#">Customer Service</a></li>
-                                    <li class="bdr-hvr"><a href="#">Prime<i class="dropdown-i"></i></a></li>
-                                    <li class="bdr-hvr"><a href="#">Fashion</a></li>
-                                    <li class="bdr-hvr"><a href="#">Electronics</a></li>
-                                    <li class="bdr-hvr"><a href="#">New Releases</a></li>
+                    <div class="nav-shop-nav-rght wh-100 flex">
+                        <div class="nav-shop-container h-100">
+                            <div class="h-100">
+                                <ul class="h-100 flex">
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Fresh<i class="dropdown-i"></i></a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Amazon miniTV</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Sell</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Best Sellers</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Today's Deals</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Mobiles</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Customer Service</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Prime<i class="dropdown-i"></i></a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Fashion</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">Electronics</a></li>
+                                    <li class="bdr-hvr h-100"><a href="#" class="h-100 flex">New Releases</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="nav-rght bdr-hvr">
-                            <div>
-                                <a href="#"><img src="Img/PD24_SWM_Dates_V2._CB569503763_.jpg" alt=""></a>
+                        <div class="nav-rght bdr-hvr h-100">
+                            <div class="h-100">
+                                <a href="#"><img src="Img/advertise.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- nav-lower-div start here -->
-
         </nav>
     </header>
+    <main>
+        <div id="mainContent" class="w-100">
+            <div class="wrapper wh-100">
+                <div class="heroImg w-100">
+                    <img src="Img/hero-section-bg.jpg" alt="hero-section-bg" class="w-100">
+                </div>
+                <div id="pageContent" class="w-100">
+                    <div class="pageContentWrapper w-100">
+                        <div class="slider flex">
+                            <div class="arrow h-100 flex">
+                                <div>
+                                    <a href="#">
+                                      <img src="Img/left-arrow-svgrepo-com.svg" alt="slider-left-arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="arrow h-100 flex">
+                                <div class="h-100">
+                                    <a href="#" class="h-100">
+                                      <img src="Img/right-arrow-svgrepo-com.svg" alt="slider-right-arrow" class="h-100">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content w-100 flex">
+                            <section id="gw-cards" class="w-100 m-25">
+                                <div class="cards-layout w-100">
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Revamp your home in style</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Home_furnishings.jpg" alt="" class="wh-100"></div><span>Cushion covers,bedsheets & more </span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Home_decor.jpg" alt="" class="wh-100"></div><span>Figurines, veses & more</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Home_storage.jpg" alt="" class="wh-100"></div><span>Home Storage</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Home_lighting.jpg" alt="" class="wh-100"></div><span>Lighting Solutions</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">Explore all</a></div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Starting ₹149 | Headphones</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/QuadCard_boAt.jpg" alt="" class="wh-100"></div><span>Starting ₹249 | boAt</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/PC_QuadCard_Boult.jpg" alt="" class="wh-100"></div><span>Starting ₹349 | boult</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/QuadCard_Noise.jpg" alt="" class="wh-100"></div><span>Starting ₹649 | noise</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/QuadCard_Zeb.jpg" alt="" class="wh-100"></div><span>Starting ₹149 | Zebronics</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See all offers</a></div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Up to 60% off | Styles for women</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/WF1.jpg" alt="" class="wh-100"></div><span>Women's Clothing</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/WomenFootwear.jpg" alt="" class="wh-100"></div><span>Footwear + Handbags</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/womenWatches.jpg" alt="" class="wh-100"></div><span>Watches</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/womenJwellery.jpg" alt="" class="wh-100"></div><span>Fashion Jewellery</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See More</a></div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Automotive essentials | Up to 60% off</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/cleaning Accessories.jpg" alt="" class="wh-100"></div><span>Cleaning accessories</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/tyre and rime care.jpg" alt="" class="wh-100"></div><span>Tyre and rim care</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/helmets.jpg" alt="" class="wh-100"></div><span>Helmets</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/VaccumCleaner.jpg" alt="" class="wh-100"></div><span>Vaccume cleaner</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See More</a></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="kitchenAccessories w-100">
+                                <div class="bg-fff m-25">
+                                    <div>
+                                        <div class="productHeading flex">
+                                            <h4>Best Sellers in Home & Kitchen</h4>
+                                            <span><a href="#" class="links">See all offers</a></span>
+                                        </div>
+                                        <div class="accessories w-100">
+                                            <div>
+                                                <ul class="flex">
+                                                    <li><a href="#"><img src="Img/prestro.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/mixer.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/wallWatch.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/piegen.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/StoveCraft.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/GarnetBulb.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/electronic_kitchen_weighter.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/bedsheets.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/bedsheets2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/freshner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/FoldableClothDriyer.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/AdhesiveHooks.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/GarbageBags.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/AdhesiveHooks2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/WindproofSupport.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/fiberPillow.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/mat.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Chopping.jpg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="carBikeAccessories w-100">
+                                <div class="bg-fff m-25">
+                                    <div>
+                                        <div class="productHeading flex">
+                                            <h4>Up to 60% off | Car & bike accessories & more</h4>
+                                            <span><a href="#" class="links">See all offers</a></span>
+                                        </div>
+                                        <div class="accessories w-100">
+                                            <div>
+                                                <ul class="flex">
+                                                    <li><a href="#"><img src="Img/Electric_cleaner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Tyre_Inflator.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/helmet1.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/helmet2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/helmet3.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Electric_cleaner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/vaccume_cleaner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/freshner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/duster.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Vega_helmet.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/interior_cleaner.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Vega_helmet.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/wash_shampoo.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Synthetic_engineOil.jpg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="gw-cards" class="w-100 m-25">
+                                <div class="cards-layout w-100">
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Under ₹499 | Pocket-friendly fashion</h2>
+                                        </div>
+                                        <div class="card-img flex w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/clothing.jpg" alt="" class="wh-100"></div><span>clothing</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/bagpacks.jpg" alt="" class="wh-100"></div><span>Bagpacks</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/footwear.jpg" alt="" class="wh-100"></div><span>Footwear</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/viewAll.jpg" alt="" class="wh-100"></div><span>View All</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See all offers</a></div>
+                                    </div>
+                                    <div class="fashionCard flex">
+                                        <div>
+                                            <h2>Customers’ Most-Loved Fashion for you</h2>
+                                        </div>
+                                        <div class="w-100 flex flexWrap" style="row-gap: 20px;">
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/womenTshirt.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Allen_Solly_regular_Tshirt.jpg" alt="" class="wh-100"></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/shooes.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Fabric combo.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">Explore More</a></div>
+                                    </div>
+                                    <div class="fashionCard flex">
+                                        <div>
+                                            <h2>Bestsellers in Women's Indian Clothing</h2>
+                                        </div>
+                                        <div class="w-100 flex flexWrap ">
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/printed Anaar.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/printed flared.jpg" alt="" class="wh-100"></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Straight chinki green.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Straight shaniya green.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Up to 60% off | Car, bike parts & accessories</h2>
+                                        </div>
+                                        <div class="w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/carBikeAccesories.jpg" alt="" class="wh-100"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">Explore More</a></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="hoemDecorAccessories w-100">
+                                <div class="bg-fff m-25">
+                                    <div>
+                                        <div class="productHeading flex">
+                                            <h4>Trendy home decor</h4>
+                                            <span><a href="#" class="links">See all offers</a></span>
+                                        </div>
+                                        <div class="accessories w-100">
+                                            <div>
+                                                <ul class="flex">
+                                                    <li><a href="#"><img src="Img/ArtificialAnniverssary.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/RajstaniDecor.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HandCraftedElephant.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HangingDecorShowpis.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/woodenWikerPartition.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HandmadeArtificialMarigold.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/printedCottonBedsheet.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Musician Puppet male.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HangingDecorShowpiece2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HangingDecorShowpiece3.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HandmadeArtificialDecor.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/printedCottonBedsheet2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/KitchenWoodenStorage.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HandmadeArtificialMarigold2.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Musician Puppet male-female.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Planter multiple.jpg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="HealthBeautyAccessories w-100">
+                                <div class="bg-fff m-25">
+                                    <div>
+                                        <div class="productHeading flex">
+                                            <h4>Health & beauty bestsellers</h4>
+                                            <span><a href="#" class="links">See all offers</a></span>
+                                        </div>
+                                        <div class="accessories w-100">
+                                            <div>
+                                                <ul class="flex">
+                                                    <li><a href="#"><img src="Img/PribioticsMicrobims.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/HimalayaOrigin.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/ShatavariPreservevative.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/DiagestionBloting.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/TERRAVITA.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Sprirulina Superfood.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Nonsense protien organic.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Nonsense protien diagestion.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/CoffeeBooster.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/No-nonsense protein.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/Coconut_natural-sulphate.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="Img/No-nonsense plant protein.jpg" alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="seriesAdds w-100 m-25">
+                                <div class="ads">
+                                    <div class="w-100">
+                                        <a href="#">
+                                            <img src="Img/Dil Logical Series.jpeg" alt="" class="h-100">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <section id="gw-cards" class="w-100 m-25">
+                                <div class="cards-layout w-100">
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Starting ₹99 | Start your fitness journey</h2>
+                                        </div>
+                                         <div class="w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                        <div><img src="Img/Fitness.jpg" alt="" class="wh-100"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See More</a></div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Amazon Fresh | Great prices | Fruits & vegetables</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/fruit.jpg" alt="" class="wh-100"></div><span>Fruits</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Vegitables.jpg" alt="" class="wh-100"></div><span>Vegitables</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/season Special.jpg" alt="" class="wh-100"></div><span>Season special</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/Premium Exotic.jpg" alt="" class="wh-100"></div><span>Premiun & exotic</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See all offers</a></div>
+                                    </div>
+                                    <div class="cards flex">
+                                        <div>
+                                            <h2>Essentials for Expecting Mothers</h2>
+                                        </div>
+                                        <div class="card-img w-100">
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/pregencySuplements.jpg" alt="" class="wh-100"></div><span>Pregency suplements</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/MatternitySleep.jpg" alt="" class="wh-100"></div><span>Matternity sleep & Loungewear</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/MaternityPillow.jpg" alt="" class="wh-100"></div><span>Matternity pillow</span>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="h-100 flex">
+                                                    <div><img src="Img/MaternitySkinCare.jpg" alt="" class="wh-100"></div><span>Matternity skin care</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">See more</a></div>
+                                    </div>
+                                    <div class="Most-LovedProducts flex">
+                                        <div>
+                                            <h2>Customers’ Most-Loved products</h2>
+                                        </div>
+                                        <div class="w-100 flex flexWrap" style="row-gap: 20px;">
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/HandArt Terracotta.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/MetalCratf Brass.jpg" alt="" class="wh-100"></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Toaster.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                            <div class="w-50 flex">
+                                                <a href="#" class="h-100">
+                                                    <div><img src="Img/Organic mounted hanging.jpg" alt=""></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cardFooter"><a href="#" class="links">Explore More</a></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="amazon.js"></script>
 </body>
 </html>
